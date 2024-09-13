@@ -1,0 +1,55 @@
+
+/* CSS FILE */
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #faf5f5;
+}
+
+.gallery-container {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    display: grid;
+}
+
+.image-viewer img {
+    max-width: 100%;
+    height: 500px;
+    width: 600px;
+    object-fit: cover;
+    border: 5px solid #faf8f8;
+    border-radius: 40px;
+}
+
+.navigation-controls {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: background-color 0.3s;
+    gap: 0px;
+}
+
+button:hover {
+    background-color: #155ca8;
+}
+
+button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}
+
+
